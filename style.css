@@ -1,0 +1,14 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+img {
+    display: block;
+    position: absolute;
+    width: 500px;
+}
