@@ -1,0 +1,7 @@
+{
+  "name": "animation-land",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp-server-livereload": "^1.3.0"
+  }
+}
