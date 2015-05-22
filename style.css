@@ -1,14 +1,29 @@
 body {
     overflow-x: hidden;
     margin: 0;
+    background-color: azure;
 }
 
 .container {
+    margin-top: 100px;
     position: relative;
 }
 
 img {
     display: block;
     position: absolute;
-    width: 500px;
+}
+
+.s-900 {
+    width: 900px;
+}
+
+.s-300{
+    width: 300px;
+}
+
+.camion {
+    margin-top: 180px;
+    margin-left: 50%;
+    width: 400px;
 }
