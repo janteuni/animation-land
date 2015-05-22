@@ -44,6 +44,6 @@ function addImg(data) {
     var car = document.querySelector(".camion");
     var t = new TimelineMax({ repeat: -1 });
     t
-        .to(car, 0.3, { y: -6})
-        .to(car, 0.3, { y: 0});
+        .to(car,.5, { y: -3, ease: Elastic.easeOut.config(1, 0.3)})
+        .to(car,.5, { y: 0, ease: Elastic.easeIn.config(1, 0.3)});
 })();
