@@ -4,8 +4,13 @@ body {
     background-color: azure;
 }
 
+.animation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
 .container {
-    margin-top: 100px;
     position: relative;
 }
 
@@ -23,7 +28,8 @@ img {
 }
 
 .camion {
-    margin-top: 180px;
-    margin-left: 50%;
+    margin-top: 170px;
+    margin-bottom: 20px;
+    margin-left: 75%;
     width: 400px;
 }

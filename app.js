@@ -3,8 +3,8 @@ var container = document.querySelector(".container");
 
 var allImgs = [
     {url: "images/road.svg", class:"s-300", size: 300, speed: 1, y: 250,  imgs: []},
-    {url: "images/back-mountain.svg", class:"s-900", size: 900, speed: 20, y: 0, imgs: []},
-    {url: "images/landscape.svg", class:"s-900", size: 900, speed: 10, y: 10, imgs: []}
+    {url: "images/back-mountain.svg", class:"s-900", size: 900, speed: 20, y: -10, imgs: []},
+    {url: "images/landscape.svg", class:"s-900", size: 900, speed: 10, y: -12, imgs: []}
 
 ];
 
